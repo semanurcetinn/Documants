@@ -238,16 +238,16 @@ Bu projede kullanılan Mistral NeMo 12B gibi büyük dil modelleri, yüksek işl
 - İndirilen .exe dosyası çalıştırılır. - Kurulum sihirbazı başlar. 
 
 - Lisans sözleşmesi kabul edilir.
-![Sistem Grafiği](image/CUDA7.png)
+![Sistem Grafiği](image/cuda7.png)
 - Express seçeneği seçilir ve tüm gerekli bileşenler otomatik kurulur.
-![Sistem Grafiği](image/CUDA2.png)
+![Sistem Grafiği](image/cuda2.png)
 ---
 - Driver, Toolkit, Nsight, VS Integration gibi bileşenler listelenir ve seçim gerçekleşir.Yükleme süreci başlar, yükleme çubuğu yavaş yavaş ilerler.
-   ![Sistem Grafiği](image/CUDA5.png)
+   ![Sistem Grafiği](image/cuda5.png)
 
-   ![Sistem Grafiği](image/CUDA6.png)
+   ![Sistem Grafiği](image/cuda6.png)
 - NVIDIA ekran kartı sürücüsü (Graphics Driver), CUDA Toolkit kurulumu sırasında otomatik olarak yüklenir. Bu ekran, sürücünün ve yardımcı bileşenlerin başarıyla kurulduğunu gösterir. "Close" butonuna tıklayarak sürücü kurulum penceresi kapatılır.
-![Sistem Grafiği](image/CUDA4.png)
+![Sistem Grafiği](image/cuda4.png)
 
 
 
