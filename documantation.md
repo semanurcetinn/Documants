@@ -545,9 +545,11 @@ Bu projede Multipass, kullanıcıdan alınan doğal dil komutları doğrultusund
    ![Sistem Grafiği](image/multipass1.png) 
 
 - Kurulum sihirbazında sırasıyla “Next” butonlarına tıklayarak lisans sözleşmesini kabul ediniz ve kurulum dizinini onaylayınız.
-![Sistem Grafiği](image/multipass2.png) 
+  
+   ![Sistem Grafiği](image/multipass2.png) 
 - Kurulum işlemi sırasında, Windows için uygun bir sanallaştırma sağlayıcısı seçmeniz gerekebilir (örneğin: Hyper-V, VirtualBox, WSL2).
-![Sistem Grafiği](image/multipass3.png) 
+  
+   ![Sistem Grafiği](image/multipass3.png) 
 
 - PATH eklenti sayfasında da sisteme uygun olan seçeneği işaretledikten sonra "Next" tuşuna basınız.
 
@@ -565,6 +567,7 @@ Bu projede Multipass, kullanıcıdan alınan doğal dil komutları doğrultusund
 - VirtualBox kuruluysa, şu komutla Multipass’i ona yönlendirebilirsiniz:
 
   ` multipass set local.driver=virtualbox`
+  
    ![Sistem Grafiği](image/multipass7.png) 
 
    ![Sistem Grafiği](image/multipass8.png) 
