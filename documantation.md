@@ -95,10 +95,12 @@ OLLAMA, bu projede  Mistral ve DeepSeek gibi LLM modellerini lokal olarak çalı
    `model.to(device)`
  
   - Ollama dokümantasyon linkine gidildikten sonra modeller sayfasına geçilir ve buradan "mistral-nemo 12:b modeli" seçilir.
-  ![Sistem Grafiği](image/mistralnemo1.png)
+    
+     ![Sistem Grafiği](image/mistralnemo1.png)
  
   - Terminal ekranına aşağıdaki komut yazılır ve çalıştırılır:
-  ![Sistem Grafiği](image/mistralnemo2.png)
+    
+     ![Sistem Grafiği](image/mistralnemo2.png)
  
   
  
@@ -238,11 +240,14 @@ Bu projede kullanılan Mistral NeMo 12B gibi büyük dil modelleri, yüksek işl
 - İndirilen .exe dosyası çalıştırılır. - Kurulum sihirbazı başlar. 
 
 - Lisans sözleşmesi kabul edilir.
-![Sistem Grafiği](image/cuda7.png)
+  
+   ![Sistem Grafiği](image/cuda7.png)
 - Express seçeneği seçilir ve tüm gerekli bileşenler otomatik kurulur.
-![Sistem Grafiği](image/cuda2.png)
----
+  
+   ![Sistem Grafiği](image/cuda2.png)
+  
 - Driver, Toolkit, Nsight, VS Integration gibi bileşenler listelenir ve seçim gerçekleşir.Yükleme süreci başlar, yükleme çubuğu yavaş yavaş ilerler.
+  
    ![Sistem Grafiği](image/cuda5.png)
 
    ![Sistem Grafiği](image/cuda6.png)
@@ -343,28 +348,29 @@ Kurulum boyunca gelen adımları şu şekilde tamamlayın:
    - Başlangıç için Notepad++, VS Code ya da Nano önerilir.  
 6. **Başlangıç Dalı (branch)**: Genelde `master` veya `main`. Devam edin.  
 7. **PATH’e Ekleme**: Orta seçenek, yani hem Git Bash hem CMD’de kullanılabilir olsun.  
-![Sistem Grafiği](image/Git1.png) 
+![Sistem Grafiği](image/git1.png) 
 8. **SSH istemcisi**: Default “OpenSSH” seçili kalsın.  
-![Sistem Grafiği](image/Git2.png) 
-9. **Satır sonu dönüşümleri**: "Checkout Windows-style, commit Unix-style" seçeneğini kullanın.  
-![Sistem Grafiği](image/Git3.png) 
+![Sistem Grafiği](image/git2.png) 
+9. **Satır sonu dönüşümleri**: "Checkout Windows-style, commit Unix-style" seçeneğini kullanın.
+      
+   ![Sistem Grafiği](image/git3.png) 
 
-   ![Sistem Grafiği](image/Git4.png) 
+   ![Sistem Grafiği](image/git4.png) 
 
-   ![Sistem Grafiği](image/Git5.png) 
+   ![Sistem Grafiği](image/git5.png) 
 
-   ![Sistem Grafiği](image/Git6.png) 
+   ![Sistem Grafiği](image/git6.png) 
 
-10. **Terminal Emülatörü**: Varsayılan olarak **MinTTY** önerilir.  
-11. **Git pull davranışı**: Varsayılan seçimi tercih edin.  
-12. **Kimlik bilgisi yöneticisi (Credential Manager)**: Varsayılan bırakılabilir.  
-13. **Ek seçenekler & deneysel özellikler**: Aynı şekilde varsayılan seçenekleri kullanın.  
+11. **Terminal Emülatörü**: Varsayılan olarak **MinTTY** önerilir.  
+12. **Git pull davranışı**: Varsayılan seçimi tercih edin.  
+13. **Kimlik bilgisi yöneticisi (Credential Manager)**: Varsayılan bırakılabilir.  
+14. **Ek seçenekler & deneysel özellikler**: Aynı şekilde varsayılan seçenekleri kullanın.  
 
 Tekrar "Install" diyerek kurulumu tamamlayın.
 
-   ![Sistem Grafiği](image/Git7.png)
+   ![Sistem Grafiği](image/git7.png)
 
-   ![Sistem Grafiği](image/Git8.png)  
+   ![Sistem Grafiği](image/git8.png)  
 **Kurulumu Doğrulama**
 
 Kurulum tamamlandığında Git Bash veya CMD/Powershell açarak aşağıdaki komutla kontrol edin:
@@ -428,6 +434,7 @@ Artık Windows üzerinde Git kurulumunuzu tamamladınız! Kullanım için aşağ
 - İndirilen `.exe` dosyasını çift tıklayarak çalıştırın.
 
 - Kurulum tamamlandıktan sonra otomatik açılır.
+  
   ![Sistem Grafiği](image/github4.png)
 
 
@@ -461,7 +468,9 @@ Projenin frontend (ön yüz) geliştirme aşamasında AI destekli kod önerileri
 -  Cursor’un resmi web sitesine gidiniz:
 
      https://cursor.com/downloads
-![Sistem Grafiği](image/cursor1.png) 
+
+   ![Sistem Grafiği](image/cursor1.png)
+   
 - İşletim sisteminize uygun olan Cursor sürümünü indiriniz.(Windows tercih edildi.)
 
 
@@ -532,7 +541,8 @@ Bu projede Multipass, kullanıcıdan alınan doğal dil komutları doğrultusund
 ![Sistem Grafiği](image/multipassss.png) 
 - Windows işletim sistemi için uygun olan dosyayı indiriniz.
 - İndirilen dosyaya çift tıklayarak yükleyiciyi başlatınız.
-![Sistem Grafiği](image/multipass1.png) 
+  
+   ![Sistem Grafiği](image/multipass1.png) 
 
 - Kurulum sihirbazında sırasıyla “Next” butonlarına tıklayarak lisans sözleşmesini kabul ediniz ve kurulum dizinini onaylayınız.
 ![Sistem Grafiği](image/multipass2.png) 
@@ -544,16 +554,18 @@ Bu projede Multipass, kullanıcıdan alınan doğal dil komutları doğrultusund
    ![Sistem Grafiği](image/multipass4.png) 
 
 - Multipass 'in indirileceği klasörü seçiniz.
-![Sistem Grafiği](image/multipass5.png) 
+  
+   ![Sistem Grafiği](image/multipass5.png) 
 
 - "İnstall butonuna basarak kurulum işlemini başlatınız.
-![Sistem Grafiği](image/multipass6.png) 
+  
+   ![Sistem Grafiği](image/multipass6.png) 
 
 - Eğer VirtualBox kullanmak istiyorsanız, önce VirtualBox’ın sisteminize kurulu olması gerekir.
 - VirtualBox kuruluysa, şu komutla Multipass’i ona yönlendirebilirsiniz:
 
   ` multipass set local.driver=virtualbox`
-![Sistem Grafiği](image/multipass7.png) 
+   ![Sistem Grafiği](image/multipass7.png) 
 
    ![Sistem Grafiği](image/multipass8.png) 
 - Kurulum tamamlandıktan sonra bilgisayarı yeniden başlatmanız önerilir.
